@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+
+		<parameter name="inputName" value="inputVal1"></parameter>
+		<parameter name="userName" value="Abilash"></parameter>
+		<parameter name="password" value="Password123"></parameter>
+		<classes>
+			<class name="TestGroup_PracticeProblems4D.A25_TestNGAnnotationsA" />
+			<class name="TestGroup_PracticeProblems4D.A25_TestNGAnnotationsB" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
